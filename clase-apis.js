@@ -16,7 +16,7 @@ obtenerInfo()
 const renderizarUsuario = (usuarios) => {
 
     for (const usuario of usuarios) {
-        tarjeta.innerHTML += `<div class="card" style="width: 150px; margin: 15px;">
+        tarjeta.innerHTML += `<div class="card" style="width: 20%; margin: 15px;">
         <img src="${usuario.avatar_url}" alt="caballito">
             <div class="card-body">
                 <h5 class="card-title">${usuario.login}</h5>
@@ -31,8 +31,7 @@ const contacto = document.querySelector("#contacto")
 
 const conectarUsuario = () => {
 
-    tarjeta.innerHTML = `<div class="card" style="width: 200px; margin: 15px;">
-        <img src="${usuario.avatar_url}" alt="caballito">
+    tarjeta.innerHTML = `<div class="card" style="width: 20%; margin: 15px;">
             <div class="card-body">
                 <h5 class="card-title">Detalles de usuario</h5>
                 <p class="card-text">lorem lreoeoreormermelrmeoem</p>
