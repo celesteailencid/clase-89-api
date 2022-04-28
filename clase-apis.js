@@ -32,7 +32,7 @@ const contacto = document.querySelector("#contacto")
 const conectarUsuario = () => {
 
     tarjeta.innerHTML = `<div class="card" style="width: 200px; margin: 15px;">
-        <img src="" alt="caballito">
+        <img src="${usuario.avatar_url}" alt="caballito">
             <div class="card-body">
                 <h5 class="card-title">Detalles de usuario</h5>
                 <p class="card-text">lorem lreoeoreormermelrmeoem</p>
